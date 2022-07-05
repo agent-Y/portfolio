@@ -16,11 +16,11 @@ import Drawer from './drawer'
 const Navigation: NextPage = () => {
   return (
     <Box sx={{ flexGrow: 1,  }}>
-      <AppBar position="static" sx={{bgcolor:'white'}} >
+      <AppBar elevation={0} position="static" sx={{bgcolor:'primary.dark'}} >
         <Toolbar>
         <Drawer />
-          <Typography variant="h6" color="common.black" component="div" sx={{ flexGrow: 1 }}>
-            News
+          <Typography variant="h6" color="primary.dark" component="div" sx={{ flexGrow: 1, fontWeight: 'bold', fontStyle:  'Roboto',}}>
+            Yuki's Portfolio 
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

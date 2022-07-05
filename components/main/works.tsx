@@ -102,7 +102,7 @@ const images = [
   },
 ];
 
-const Hello: NextPage = () => { 
+const Works: NextPage = () => { 
 
   return (
     <Container component="section" sx={{ width:'100%', height:'100%'}}>
@@ -157,4 +157,4 @@ const Hello: NextPage = () => {
   );
 }
 
-export default Hello
+export default Works
